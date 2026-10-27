@@ -2,120 +2,128 @@
 
 ### Create. Customize. Download. Scan.
 
-**A free, privacy-conscious QR code generator by Rumi-Ware.** Create QR codes for websites, Wi-Fi, contacts, messages, locations, events, and more — all in one simple application.
+**A free, all-in-one QR code generator by [Rumi-Ware](https://github.com/Rumi-Ware).**
 
-> **Free. No login, no subscriptions, no API keys, and no hidden requirements.** Just open the website, enter your content, generate your QR code, and download it.
+Generate QR codes for websites, Wi-Fi networks, contacts, WhatsApp, email, phone numbers, locations, calendar events, and more. Customize their appearance, download them in PNG or SVG format, and scan existing QR codes — all from one simple application.
 
 <p align="center">
-  <a href="https://github.com/SalmanAliAqdas/qr-code-studio">
-    <img src="https://img.shields.io/badge/Price-Free-16a34a?style=for-the-badge" alt="Free">
-  </a>
-  <img src="https://img.shields.io/badge/Login-Not%20Required-2563eb?style=for-the-badge" alt="Login not required">
-  <img src="https://img.shields.io/badge/API%20Keys-Not%20Required-7c3aed?style=for-the-badge" alt="No API keys required">
-  <img src="https://img.shields.io/badge/Privacy-First-0f766e?style=for-the-badge" alt="Privacy first">
+  <strong>Free. No login, no subscriptions, no API keys, and no hidden requirements.</strong>
+  <br>
+  Just open the website, enter your content, generate your QR code, and download it.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.11+">
-  <img src="https://img.shields.io/badge/Framework-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit">
+  <img src="https://img.shields.io/badge/Price-100%25%20Free-16a34a?style=for-the-badge" alt="100% free">
+  <img src="https://img.shields.io/badge/Login-Not%20Required-2563eb?style=for-the-badge" alt="Login not required">
+  <img src="https://img.shields.io/badge/API%20Keys-Not%20Required-7c3aed?style=for-the-badge" alt="No API keys required">
+  <img src="https://img.shields.io/badge/Privacy-First-0f766e?style=for-the-badge" alt="Privacy focused">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Streamlit-Application-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit">
   <img src="https://img.shields.io/badge/Export-PNG%20%7C%20SVG-64748b?style=flat-square" alt="PNG and SVG export">
-  <img src="https://img.shields.io/badge/Storage-No%20Permanent%20Storage-0f766e?style=flat-square" alt="No permanent storage by the application">
+  <img src="https://img.shields.io/badge/Testing-pytest-0A9EDC?style=flat-square" alt="pytest">
 </p>
 
 ---
 
-## ✨ What makes QR Code Studio different?
+## ✨ Why QR Code Studio?
 
-- **Completely free:** No subscriptions, paywalls, or paid features.
-- **No account required:** Start creating QR codes without registration.
-- **Privacy-conscious:** QR generation and image scanning run in the application without third-party QR services or external APIs.
-- **Customizable designs:** Choose colors, image size, error correction, and an optional center logo.
-- **Two download formats:** Export QR codes as PNG or SVG.
-- **Built-in scanner:** Upload an image to decode one or multiple QR codes.
-- **Simple to use:** Generate and inspect QR codes through a straightforward interface.
+Creating and sharing QR codes should be simple. QR Code Studio brings QR generation, customization, and scanning together without requiring accounts or third-party QR generation services.
 
-## 🚀 Features at a glance
+- 🆓 **Completely free to use** — no subscriptions or paid features.
+- 🔓 **No registration required** — start creating QR codes without creating an account.
+- 🔑 **No API keys** — no external QR generation API credentials are needed.
+- 🎨 **Customizable designs** — choose colors, image size, error correction, and an optional logo.
+- 📥 **PNG and SVG downloads** — choose a raster image or a clean vector QR code.
+- 📷 **Built-in QR scanner** — upload images and decode QR codes.
+- 🔒 **Privacy-conscious processing** — the application processes payloads and uploads in memory without intentionally storing them permanently.
+- ⚡ **Simple workflow** — enter, customize, generate, and download.
 
-| Feature | What you can do |
+## 🚀 Features
+
+| Feature | Description |
 |---|---|
-| QR generation | Create static QR codes from multiple content types |
-| Customization | Adjust foreground and background colors |
-| Logo support | Add an optional center logo to PNG codes |
-| PNG export | Download raster QR codes up to 1,600 × 1,600 pixels |
-| SVG export | Download clean vector QR codes |
+| QR generation | Generate static QR codes for multiple content types |
+| QR customization | Set foreground and background colors |
+| Logo support | Add an optional center logo to PNG QR codes |
+| PNG export | Generate images from 240 to 1,600 pixels |
+| SVG export | Download scalable vector QR codes |
 | QR scanning | Decode PNG, JPG, JPEG, and WEBP images |
-| Multi-code detection | Attempt to scan multiple QR codes from one image |
-| Safety checks | Validate inputs, check contrast, and limit uploads |
-| Privacy | No accounts, external QR APIs, or intentional permanent storage |
+| Multi-code detection | Attempt to detect multiple QR codes in one image |
+| Content classification | Identify common types of decoded QR content |
+| Input validation | Validate supported values and image uploads |
+| Contrast checks | Warn about potentially difficult-to-scan color combinations |
+| Privacy-focused design | No accounts, external QR APIs, or intentional permanent storage |
 
 ## 🧩 Supported QR code types
 
-Create a QR code for almost any everyday use case.
+Create QR codes for everyday personal, educational, and business use.
 
-| QR type | Example use |
+| QR type | What it does |
 |---|---|
-| 🌐 Website | Share a website or landing page |
-| 📝 Plain text | Display a message or information |
-| 📶 Wi-Fi | Let people connect to a wireless network |
-| 💬 WhatsApp | Open a chat with an optional prefilled message |
+| 🌐 Website URL | Share a website or web page |
+| 📝 Plain text | Share a message or any supported text |
+| 📶 Wi-Fi | Share network details for compatible scanners |
+| 💬 WhatsApp | Open a WhatsApp chat with an optional message |
 | ✉️ Email | Prepare an email with an optional subject and body |
-| 📞 Phone | Make a phone number easy to access |
+| 📞 Phone call | Make a phone number easy to access |
 | 💌 SMS | Prepare a text message |
 | 👤 Contact card | Share contact information using vCard |
-| 📍 Location | Share a place or address through Google Maps |
-| 📅 Calendar | Share an event using iCalendar data |
-| 📄 Document | Link to a publicly accessible document |
-| 💳 Payment | Link to a payment page supplied by the user |
+| 📍 Location | Share a location through a Google Maps search URL |
+| 📅 Calendar event | Encode event information using iCalendar |
+| 📄 Document link | Share a user-provided document URL |
+| 💳 Payment link | Link to a user-provided payment page |
 
-**Important:** Document and payment QR codes contain links, not the files or money themselves. Payment codes are not direct integrations with banking providers. Scanner compatibility can vary by device and application.
+**Please note:** Document and payment QR codes encode links supplied by the user. They do not upload documents or directly process payments through banking providers. Compatibility with Wi-Fi, calendar, SMS, and payment links varies by device and scanner application.
 
-## 🎨 Customization options
+## 🎨 Customize your QR codes
 
-Make your QR codes fit your brand or project.
+Give your QR codes a look that fits your project or brand.
 
-- **Foreground and background colors** — choose your own color combination.
-- **Image size** — select a PNG size from 240 to 1,600 pixels.
-- **Quiet zone** — adjust the clear border around the code.
-- **Error correction** — choose Low, Medium, Quartile, or High.
-- **Center logo** — optionally add a logo to PNG exports.
+- **Foreground color:** Customize the QR code's main pattern.
+- **Background color:** Choose a background color.
+- **Image size:** Generate PNG files between 240 and 1,600 pixels.
+- **Quiet zone:** Adjust the clear border around the code.
+- **Error correction:** Choose Low, Medium, Quartile, or High.
+- **Optional center logo:** Add a logo to PNG exports.
 
-The application warns about poor contrast and attempts to verify generated designs. Always test a customized QR code before printing or sharing it.
+The application checks color contrast and validates supported settings. However, customized codes should always be tested on multiple devices before printing or distribution.
 
 ## 🖼️ Screenshots
 
-Add real screenshots from the running application to showcase its interface. Save them in the suggested `assets/screenshots/` folder and update the image paths below.
+The following sections are placeholders for real screenshots of the application. Add screenshots after running QR Code Studio locally.
 
 <p align="center">
-  <strong>QR Code Generation</strong>
+  <strong>QR Code Generator</strong>
+  <br>
+  <img src="assets/screenshots/generate.png" alt="QR Code Studio generation interface" width="850">
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/generate.png" alt="QR Code Studio generation screen — add a real application screenshot here" width="850">
+  <strong>QR Code Scanner</strong>
+  <br>
+  <img src="assets/screenshots/scan.png" alt="QR Code Studio scanning interface" width="850">
 </p>
 
-<p align="center">
-  <strong>QR Code Scanning</strong>
-</p>
-
-<p align="center">
-  <img src="assets/screenshots/scan.png" alt="QR Code Studio scanning screen — add a real application screenshot here" width="850">
-</p>
+To display these images, create the `assets/screenshots/` folder and add your screenshots using the filenames shown above.
 
 ## 🔄 How it works
 
 ```mermaid
 flowchart TD
     A["Open QR Code Studio"] --> B{"Choose an action"}
-    B --> C["Generate QR"]
-    B --> D["Scan QR image"]
-    C --> E["Choose content type"]
-    E --> F["Enter your information"]
-    F --> G["Customize the design"]
-    G --> H["Preview and verify"]
+    B --> C["Generate a QR code"]
+    B --> D["Scan an existing QR image"]
+    C --> E["Select content type"]
+    E --> F["Enter content"]
+    F --> G["Customize appearance"]
+    G --> H["Generate and preview"]
     H --> I["Download PNG or SVG"]
-    D --> J["Upload PNG, JPG, JPEG, or WEBP"]
+    D --> J["Upload an image"]
     J --> K["Decode QR content"]
-    K --> L["Review the decoded result safely"]
+    K --> L["Review the result safely"]
 ```
 
 ## 🛠️ Technology stack
@@ -123,22 +131,22 @@ flowchart TD
 | Technology | Purpose |
 |---|---|
 | Python 3.11+ | Application logic |
-| Streamlit | User interface |
+| Streamlit | Web interface and navigation |
 | `qrcode` | QR code generation |
 | Pillow | Image processing and PNG output |
 | OpenCV Headless | QR code detection and decoding |
 | NumPy | Image data processing |
 | pytest | Automated testing |
 
-## 💻 Run locally
+## 💻 Installation and local usage
 
-You can run QR Code Studio on your own computer without API keys, external QR services, or a database.
+Run QR Code Studio on your own computer.
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/SalmanAliAqdas/qr-code-studio.git
-cd qr-code-studio
+git clone https://github.com/Rumi-Ware/QR-code-Generator.git
+cd QR-code-Generator
 ```
 
 ### 2. Create a virtual environment
@@ -167,28 +175,30 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
-### 5. Start the application
+### 5. Run the application
 
 ```bash
 python -m streamlit run app.py
 ```
 
-Streamlit will display a local URL in your terminal. Open that URL in your browser to start using the application.
+Open the local URL printed in your terminal by Streamlit.
 
-## 🧪 Run tests
+No API keys, external QR generation services, or database setup are required for local use.
 
-Run the test suite from the project directory:
+## 🧪 Run the tests
+
+Run the automated test suite from the project directory:
 
 ```bash
 python -m pytest -q
 ```
 
-The project tests cover QR payload construction, validation, image generation, scanning, and related edge cases. Tests are designed to run without network access or API credentials.
+The tests cover payload construction, validation, QR image generation, scanning, and related edge cases. They are designed to run without network access or API credentials.
 
 ## 📁 Project structure
 
 ```text
-qr-code-studio/
+QR-code-Generator/
 │
 ├── app.py                     # Streamlit interface and navigation
 ├── payloads.py                # QR payload builders and escaping
@@ -209,71 +219,73 @@ qr-code-studio/
 
 ## ☁️ Deployment
 
-QR Code Studio can be deployed using [Streamlit Community Cloud](https://streamlit.io/cloud), subject to that platform's current availability and resource limits.
+QR Code Studio can be deployed using [Streamlit Community Cloud](https://streamlit.io/cloud), subject to the platform's current availability, resource limits, and deployment requirements.
 
-1. Push the project to GitHub.
+1. Push your repository to GitHub.
 2. Open Streamlit Community Cloud and connect your GitHub account.
-3. Create an app using this repository.
-4. Set `app.py` as the application entry point.
+3. Create an app from the `Rumi-Ware/QR-code-Generator` repository.
+4. Select `app.py` as the entry point.
 5. Deploy and test the hosted application.
 
-The application does not require API secrets or an external database. However, public hosting still involves the hosting provider processing requests and uploaded files.
+The application does not require API secrets or an external database. Public hosting still means the hosting provider processes requests and uploaded files as part of operating the application.
 
 ## 🔒 Privacy and security
 
 Privacy is an important part of QR Code Studio's design.
 
-- **No account system:** The application does not require user registration or login.
-- **No third-party QR API:** QR generation and scanning use local Python libraries.
-- **No intentional permanent storage:** Payloads and uploaded images are processed in memory rather than intentionally saved as application records.
-- **No automatic link opening:** Decoded URLs are displayed for review rather than opened automatically.
-- **Input validation:** The application validates supported inputs and limits uploaded image sizes.
-- **Upload restrictions:** Scanned images are limited to 10 MB, and optional logos are limited to 2 MB.
-- **Sensitive Wi-Fi details:** The interface hides Wi-Fi payload details because they may contain passwords.
+- **No account system:** No registration or login is required.
+- **No external QR API:** QR generation and image decoding use Python libraries.
+- **In-memory processing:** Payloads and uploaded images are not intentionally saved as permanent application records.
+- **No automatic link opening:** Decoded links are displayed for review rather than opened automatically.
+- **Input validation:** Supported inputs and uploaded images are validated.
+- **Upload limit:** Scanned images must be 10 MB or smaller.
+- **Sensitive Wi-Fi information:** Wi-Fi payload details are hidden in the interface because they can contain passwords.
+- **Untrusted content:** Uploaded files and decoded text are not executed by the application.
 
-**Stay safe:** A QR code can contain a malicious URL even if it looks legitimate. Verify the destination before opening it, and never enter sensitive information on an unexpected page.
+**Stay safe:** A QR code can contain a malicious link even if it looks legitimate. Check the destination carefully before opening it, and never enter sensitive information on an unexpected page.
 
-When deploying publicly, review the hosting provider's privacy policy and security settings as well.
+When using a hosted deployment, also review the hosting provider's privacy policy and security settings.
 
 ## ⚠️ Limitations
 
 - QR codes are static. Their encoded content cannot be changed after printing without replacing the code.
-- Webcam scanning, analytics, accounts, QR history, and cloud storage are not included in version 1.0.
+- Webcam scanning, dynamic redirects, analytics, accounts, QR history, and cloud storage are not included in version 1.0.
 - SVG exports do not embed the uploaded raster logo.
-- Low-contrast, damaged, very small, dense, or highly decorated codes may be difficult to scan.
-- QR behavior for Wi-Fi, calendar events, SMS, and payment links depends on the receiving device, scanner, or provider.
+- Damaged, dense, very small, highly decorated, or low-contrast codes may not scan reliably.
+- Wi-Fi, calendar, SMS, and payment behavior depends on the scanner application, device, or payment provider.
 
 ## 🗺️ Future improvements
 
-Potential enhancements include:
+Possible future enhancements include:
 
 - [ ] Browser-camera scanning with explicit permission
 - [ ] Batch QR generation and downloads
-- [ ] More structured QR payload standards
-- [ ] Additional languages and localization
+- [ ] Additional structured QR payload standards
+- [ ] More languages and localization
 - [ ] Accessibility checks and print-ready layouts
 
 ## 🤝 Contributing
 
-Contributions, bug reports, feature suggestions, and improvements are welcome.
+Contributions, bug reports, and feature suggestions are welcome.
 
 1. Fork the repository.
 2. Create a feature branch.
-3. Make your changes and run the tests.
-4. Submit a pull request describing the improvement.
+3. Make your changes.
+4. Run the test suite.
+5. Submit a pull request describing your changes.
 
-Please keep changes focused, testable, and consistent with the project's privacy-first approach.
+Please keep contributions focused, testable, and consistent with the project's privacy-conscious approach.
 
 ## 📜 License
 
-Check the repository for its license before reusing or distributing this project. If you plan to publish it for wider use, include an explicit license file.
+Check the repository for its current license before reusing or redistributing the project. If you intend to publish the project for wider reuse, ensure that the repository contains an appropriate license file.
 
 ---
 
 <p align="center">
   <strong>Less hassle. More possibilities. Just QR codes.</strong>
   <br>
-  Built with Python and Streamlit.
+  Built by Rumi-Ware with Python and Streamlit.
   <br><br>
-  <strong>Free to use. No login. No subscriptions. No API keys. No hidden requirements.</strong>
+  <strong>Free. No login. No subscriptions. No API keys. No hidden requirements.</strong>
 </p>
